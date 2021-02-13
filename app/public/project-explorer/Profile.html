@@ -21,7 +21,8 @@
                 <li>Graduation Year: 2019</li>
             </ul>
         </section>
-        <h1>Update Profile</h1>
+        <section>
+        <h2>Update Profile</h2>
         <form name="updateProfile">
             <label>First Name:</label>
             <input type="text" name="firstName"><br><br>
@@ -31,14 +32,14 @@
             <input type="email" name="email"><br><br>
             <label>Matric Number:</label>
             <input type="text" name="matricNumber"><br><br>
-            <label>Program:</label>
-            <select name="program">
+            <label for="program">Program:</label>
+            <select name="program" id="program">
                 <option value="computer_science">Computer Science</option>
                 <option value="computer_information_systems">Computer Information Systems</option>
                 <option value="computer_technology">Computer Technology</option>
             </select><br><br>
-            <label>Graduation Year:</label>
-            <select name="graduationYear">
+            <label for="graduationYear">Graduation Year:</label>
+            <select name="graduationYear" id="graduationYear">
                 <option value="2013">2013</option>
                 <option value="2014">2014</option>
                 <option value="2015">2015</option>
@@ -50,6 +51,8 @@
             </select><br><br>
             <input type="submit">
         </form>
+        </section>
+        <section>
         <h1>Change Password</h1>
         <form  name="changePassword">
             <label>Current Password:</label>
@@ -60,5 +63,6 @@
             <input type="password" name="confirmPassword"><br><br>
             <input type="submit">
         </form>
+        </section>
 </body>
 </html>
