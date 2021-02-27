@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <title>Project Explorer editproject page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-4">
+            <a class="navbar-brand" href="#">Project Explorer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsindex" aria-controls="navbarsindex" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarscollapse">    
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" name="searchForm" placeholder="Search Projects" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Submit <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mr-sm-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header><br>
+    <main>
+        <div class="container">
+            <h4>Project 1</h4>
+            <div class="bg-light" style="width: 100%; 
+            padding-right: 15px; 
+            padding-left: 15px; 
+            margin-right: auto; 
+            margin-left: auto;"><br>
+            <div class="row row-cols-4">
+                <div class="col">
+                   <ul style="list-style-type: none">
+                       <li>Created by</li>
+                       <li>Afolabi Akorede</li>
+                   </ul>
+                  </div>
+                  <div class="col">
+                      <ul style="list-style-type: none">
+                          <li>Created by</li>
+                          <li>2020/08/30</li>
+                      </ul>
+                     </div>
+                     <div class="col">
+                      <ul style="list-style-type: none">
+                          <li>Last Updated</li>
+                          <li>2020/08/30</li>
+                      </ul>
+                     </div>
+                     <div class="col">
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary" class="btn btn-sm">View Project</button>
+                        </div>
+                    </div>
+                       </div>
+                  </div>
+        </div>
+    </main><br>
+    <main>
+        <div class="container">
+        <div class="row row-col-2">
+            <div class="col"><h6>Edit Project</h6><hr>
+            <form>
+                <div class="form-group">
+                    <label class="form-label">Project name</label>
+                    <input type="text" class="form-control" name="name" placeholder="project 1">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Project abstract</label>
+                    <textarea type="text" class="form-control" name="abstract" rows="6" 
+                    placeholder="project 1 is a very interesting project"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Author(s)</label>
+                    <input type="text" class="form-control" name="authors" placeholder="brain connect">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Tag(s)</label>
+                    <input type="text" 
+                    class="form-control" name="tags" placeholder="#web">
+                </div>
+                <div>
+                    <button class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+            <div class="col"><h6>Manage Project files</h6><hr>
+                <div class="custom-file">
+                    <div class="form-group">
+                        <label class="custom-file-label" for="form-label">Click to open file browser</label>
+                    <input type="file" class="form-control" id="customFile">
+                </div>
+                  </div><br><br>
+                  <div class="card">
+                    <h6 class="card-header">Project files</h6>
+                    <div class="card-body">
+                      <p class="text-center">No file uploaded yet</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    </main><br><br>
+    <footer>
+        <div class="container" style="width: 100%;">
+          <div class="card-footer text-right">
+              <p class="text-muted">Project Explorer Ⓒ 2020 - Edconnect</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
